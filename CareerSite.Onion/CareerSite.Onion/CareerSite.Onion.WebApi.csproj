@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CareerSite.Onion.DomainServices.Core\CareerSite.Onion.DomainServices.Core.csproj" />
+    <ProjectReference Include="..\CareerSite.Onion.DomainServices\CareerSite.Onion.DomainServices.csproj" />
+    <ProjectReference Include="..\CareerSite.Onion.Infrastructure.Http\CareerSite.Onion.Infrastructure.Http.csproj" />
+    <ProjectReference Include="..\CareerSite.Onion.Infrastructure.Sql\CareerSite.Onion.Infrastructure.Sql.csproj" />
+    <ProjectReference Include="..\CareerSite.Onion.InfrastructureServices\CareerSite.Onion.InfrastructureServices.csproj" />
+  </ItemGroup>
+
+</Project>
